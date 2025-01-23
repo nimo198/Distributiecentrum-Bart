@@ -11,6 +11,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 /* Navigatie */
@@ -50,6 +51,33 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 2rem;
+}
+
+/* Homepagina */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.card-btn {
+    background-color: #bb2226;
+    color: white;
+}
+
+.card-btn:hover {
+    background-color: #a31e21;
 }
 
 /* Administratie pagina */
